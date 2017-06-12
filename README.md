@@ -1,4 +1,4 @@
-# INFO UCO BOT
+# TEMPO UCO BOT
 ## DESCRIPTION
 Bot for telegram that informs you about the next arrival of the train and bus to Rabanales Campus at University of Cordoba and to Colon Square at Córdoba (:bus:) and the train station of Córdoba (:train:). It is in @InfoUco_Bot
 
@@ -10,6 +10,3 @@ Bot for telegram that informs you about the next arrival of the train and bus to
 3. For that you must get it from the bot father @BotFather.
 4. Put your token into the place where I tell you to.
 5. Run the script with python bot.py
-
-## CONTRIBUTORS
-![Imgur](http://i.imgur.com/On3HgXM.png)
