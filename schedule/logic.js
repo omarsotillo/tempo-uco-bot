@@ -1,3 +1,5 @@
+/* eslint-disable array-callback-return */
+
 const busModule = require('./bus_schedule');
 const trainModule = require('./train_schedule');
 const time = require('./time');
