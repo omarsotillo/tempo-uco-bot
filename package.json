@@ -1,0 +1,37 @@
+{
+  "name": "tempo-uco-bot",
+  "version": "2.0.0",
+  "description": "Bot for telegram",
+  "main": "index.js",
+  "scripts": {
+    "dev": "source ./parameters && micro-bot -t ${BOT_TOKEN}",
+    "start": "micro-bot -d tempo-uco-bot-torjvokfmd.now.sh",
+    "lint": "eslint . --fix",
+    "deploy": "source ./parameters && now -e BOT_TOKEN=${BOT_TOKEN}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarsotillo/tempo-uco-bot.git"
+  },
+  "author": "Omar Sotillo <omarsotillo>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omarsotillo/tempo-uco-bot/issues"
+  },
+  "homepage": "https://github.com/omarsotillo/tempo-uco-bot#readme",
+  "dependencies": {
+    "micro-bot": "^1.4.2",
+    "telegraf": "^3.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
