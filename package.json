@@ -1,12 +1,13 @@
 {
   "name": "tempo-uco-bot",
-  "version": "0.2.0",
+  "version": "2.0.0",
   "description": "Bot for telegram",
   "main": "index.js",
   "scripts": {
     "dev": "source ./parameters && micro-bot -t ${BOT_TOKEN}",
+    "start": "micro-bot -d tempo-uco-bot-torjvokfmd.now.sh",
     "lint": "eslint . --fix",
-    "deploy": "ls -l"
+    "deploy": "source ./parameters && now -e BOT_TOKEN=${BOT_TOKEN}"
   },
   "repository": {
     "type": "git",

@@ -1,12 +1,26 @@
-# TEMPO UCO BOT
-## DESCRIPTION
+<div align="center">
+<br>
+<img width="100" src="/docs/logoUcoBot.png" alt="InfoUcoBot">
+<br>
+<br>
+</div>
+
+<p align="center" color="#6a737d">
+ Info Uco Bot | Transport system of Campus Rabanales UCO
+</p>
+
+<div align="center">
+
+[![forthebadge](http://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](http://forthebadge.com)[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/winter-is-coming.svg)](http://forthebadge.com)
+</div>
+
+<div align="center">
+
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+</div>
+
+## Overview
+
 Bot for telegram that informs you about the next arrival of the train and bus to Rabanales Campus at University of Cordoba and to Colon Square at Córdoba (:bus:) and the train station of Córdoba (:train:). It is in @InfoUco_Bot
-
-![Imgur](http://i.imgur.com/5eCaX4m.png)
-
-## HOW TO USE IT?
-1. First you need to clone the repository.
-2. You must get a new token for your bot.
-3. For that you must get it from the bot father @BotFather.
-4. Put your token into the place where I tell you to.
-5. Run the script with python bot.py
+#### ToDo
+- [ ] Lines documents and schedules files
