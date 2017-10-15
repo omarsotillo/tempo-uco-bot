@@ -2,7 +2,7 @@ module.exports = {
   getTime() {
     const d = new Date();
     let dateMinutes = d.getMinutes();
-    let dateHours = d.getHours();
+    let dateHours = d.getHours() + 2;
     // Adding zero function
     if (dateMinutes < 10) {
       dateMinutes = `0${dateMinutes}`;
