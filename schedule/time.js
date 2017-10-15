@@ -10,7 +10,6 @@ module.exports = {
     if (dateHours < 10) {
       dateHours = `0${dateHours}`;
     }
-    console.log(`${d.getHours()}:${dateMinutes}`);
     return `${dateHours}:${dateMinutes}`;
   },
 };
