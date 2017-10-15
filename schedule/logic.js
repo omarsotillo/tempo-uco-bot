@@ -7,7 +7,7 @@ const time = require('./time');
 module.exports = {
   // BUS
   comingBusRabanales() {
-    let nextArrival = 'El siguiente bus sale mañana.';
+    let nextArrival = 'El siguiente bus sale mañana a las 7:15.';
     const BreakException = {};
     try {
       busModule.rabanalesBus.some((comingBus) => {
@@ -22,7 +22,7 @@ module.exports = {
     return nextArrival;
   },
   comingBusColon() {
-    let nextArrival = 'El siguiente bus sale mañana.';
+    let nextArrival = 'El siguiente bus sale mañana a las 7:00.';
     const BreakException = {};
     try {
       busModule.colonBus.some((comingBus) => {
@@ -37,7 +37,7 @@ module.exports = {
     return nextArrival;
   },
   comingTrainRabanales() {
-    let nextArrival = 'El sig.';
+    let nextArrival = 'El siguiente bus sale a las 7:26.';
     const BreakException = {};
     try {
       trainModule.rabanalesTrain.some((comingBus) => {
@@ -52,7 +52,7 @@ module.exports = {
     return nextArrival;
   },
   comingTrainRenfe() {
-    let nextArrival = 'El sig.';
+    let nextArrival = 'El siguiente bus sale a las 7:15.';
     const BreakException = {};
     try {
       trainModule.renfeTrain.some((comingBus) => {
