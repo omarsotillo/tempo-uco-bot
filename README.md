@@ -1,6 +1,6 @@
 <div align="center">
 <br>
-<img width="100" src="/docs/logoUcoBot.png" alt="InfoUcoBot">
+<img width="200" src="/docs/logoUcoBot.png" alt="InfoUcoBot">
 <br>
 <br>
 </div>
